@@ -17,7 +17,7 @@ import (
 var randomCmd = &cobra.Command{
 	Use:   "random",
 	Short: "Get a ramdon dad joke",
-	Long:  `It just givs u random dads joke form an api or some thing like that`,
+	Long:  `It just givs u random dads joke form an api to tell ur Dad`,
 	Run: func(cmd *cobra.Command, args []string) {
 		getRandomjoke()
 	},
